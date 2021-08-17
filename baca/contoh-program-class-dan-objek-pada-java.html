@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="https://1.bp.blogspot.com/-q1hXV76r2pE/YJKe2l9-01I/AAAAAAAAAE8/dqKbm4_8s64-17G5vlywo8hbvkJBLV--QCNcBGAsYHQ/s32/idea.ico">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/vyantagc/vyantagc/popme-style.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+	<script  src="https://pasukan.my.id/ad/head.js" type="text/javascript" ></script>
+	<title>
+        ▷ Contoh Program Class Dan Objek Pada Java
+    </title>
+    <style>:root{--border-radius:5px;--box-shadow:2px 2px 10px;--color:#dc3545;--color-accent:#dc354515;--color-bg:#fff;--color-bg-secondary:#c82333;--color-secondary:#c82333;--color-secondary-accent:#920de90b;--color-shadow:#f4f4f4;--color-text:#000;--color-text-secondary:#999;--font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--hover-brightness:1.2;--justify-important:center;--justify-normal:left;--line-height:1.5;--width-card:285px;--width-card-medium:460px;--width-card-wide:800px;--width-content:1080px}article aside{background:var(--color-secondary-accent);border-left:4px solid var(--color-secondary);padding:.01rem .8rem}body{background:var(--color-bg);color:var(--color-text);font-family:var(--font-family);line-height:var(--line-height);margin:0;overflow-x:hidden;padding:1rem 0}footer,header,main{margin:0 auto;max-width:var(--width-content);padding:0rem 1rem}hr{background-color:var(--color-bg-secondary);border:none;height:1px;margin:4rem 0}section{display:flex;flex-wrap:wrap;justify-content:var(--justify-important)}section aside{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);margin:1rem;padding:1.25rem;width:var(--width-card)}section aside:hover{box-shadow:var(--box-shadow) var(--color-bg-secondary)}section aside img{max-width:100%}[hidden]{display:none}article header,div header,main header{padding-top:0}header{text-align:var(--justify-important)}header a b,header a em,header a i,header a strong{margin-left:.5rem;margin-right:.5rem}header nav img{margin:1rem 0}section header{padding-top:0;width:100%}nav{align-items:center;display:flex;font-weight:700;justify-content:space-between;margin-bottom:7rem}nav ul{list-style:none;padding:0}nav ul li{display:inline-block;margin:0 .5rem;position:relative;text-align:left}nav ul li:hover ul{display:block}nav ul li ul{background:var(--color-bg);border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);display:none;height:auto;left:-2px;padding:.5rem 1rem;position:absolute;top:1.7rem;white-space:nowrap;width:auto}nav ul li ul li,nav ul li ul li a{display:block}code,samp{background-color:var(--color-accent);border-radius:var(--border-radius);color:var(--color-text);display:inline-block;margin:0 .1rem;padding:0 .5rem}details{margin:1.3rem 0}details summary{font-weight:700;cursor:pointer}h1,h2,h3,h4,h5,h6{line-height:var(--line-height)}mark{padding:.1rem}ol li,ul li{padding:.2rem 0}p{margin:.75rem 0;padding:0}pre{margin:1rem 0;max-width:var(--width-card-wide);padding:1rem 0}pre code,pre samp{display:block;max-width:var(--width-card-wide);padding:.5rem 2rem;white-space:pre-wrap}small{color:var(--color-text-secondary)}sup{background-color:var(--color-secondary);border-radius:var(--border-radius);color:var(--color-bg);font-size:xx-small;font-weight:700;margin:.2rem;padding:.2rem .3rem;position:relative;top:-2px}a{color:var(--color-secondary);display:inline-block;text-decoration:none}a:hover{filter:brightness(var(--hover-brightness));text-decoration:underline}a b,a em,a i,a strong,button{border-radius:var(--border-radius);display:inline-block;font-size:medium;font-weight:700;line-height:var(--line-height);margin:.5rem 0;padding:1rem 2rem}button{font-family:var(--font-family)}button:hover{cursor:pointer;filter:brightness(var(--hover-brightness))}a b,a strong,button{background-color:var(--color);border:2px solid var(--color);color:var(--color-bg)}a em,a i{border:2px solid var(--color);border-radius:var(--border-radius);color:var(--color);display:inline-block;padding:1rem}figure{margin:0;padding:0}figure img{max-width:100%}figure figcaption{color:var(--color-text-secondary)}button:disabled,input:disabled{background:var(--color-bg-secondary);border-color:var(--color-bg-secondary);color:var(--color-text-secondary);cursor:not-allowed}button[disabled]:hover{filter:none}form{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);display:block;max-width:var(--width-card-wide);min-width:var(--width-card);padding:1.5rem;text-align:var(--justify-normal)}form header{margin:1.5rem 0;padding:1.5rem 0}input,label,select,textarea{display:block;font-size:inherit;max-width:var(--width-card-wide)}input[type=checkbox],input[type=radio]{display:inline-block}input[type=checkbox]+label,input[type=radio]+label{display:inline-block;font-weight:400;position:relative;top:1px}input,select,textarea{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);margin-bottom:1rem;padding:.4rem .8rem}input[readonly],textarea[readonly]{background-color:var(--color-bg-secondary)}label{font-weight:700;margin-bottom:.2rem}table{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);border-spacing:0;display:inline-block;max-width:100%;overflow-x:auto;padding:0;white-space:nowrap}table td,table th,table tr{padding:.4rem .8rem;text-align:var(--justify-important)}table thead{background-color:var(--color);border-collapse:collapse;border-radius:var(--border-radius);color:var(--color-bg);margin:0;padding:0}table thead th:first-child{border-top-left-radius:var(--border-radius)}table thead th:last-child{border-top-right-radius:var(--border-radius)}table thead th:first-child,table tr td:first-child{text-align:var(--justify-normal)}table tr:nth-child(even){background-color:var(--color-accent)}blockquote{display:block;font-size:x-large;line-height:var(--line-height);margin:1rem auto;max-width:var(--width-card-medium);padding:1.5rem 1rem;text-align:var(--justify-important)}blockquote footer{color:var(--color-text-secondary);display:block;font-size:small;line-height:var(--line-height);padding:1.5rem 0} article{padding: 1.25rem;}.v-cover{height: 480px; object-fit: cover;width: 100vw;cursor: pointer;}.v-image{height: 250px; object-fit: cover;width: 100vw;cursor: pointer;}.dwn-cover{max-height: 460px; object-fit: cover;}.w-100{width: 100vw}.search-box{color:#333;background-color:#ffffff;width:85%;height:50px;padding:0 20px;border:none;border-radius:20px;outline:0;border:1px solid #c82333}.search-box:active,.search-box:focus,.search-box:hover{border:1px solid #d9008e}.btn{display:inline-block;font-weight:400;color:#212529;text-align:center;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:transparent;border:1px solid transparent;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;padding:.375rem .75rem;margin:0.5rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}.btn-danger{color:#fff;background-color:#dc3545;border-color:#dc3545}.btn-success{color:#fff;background-color:#28a745;border-color:#28a745}.btn-group-sm>.btn,.btn-sm{padding:.25rem .5rem;font-size:.875rem;line-height:1.5;border-radius:.2rem}
+</style>
+	<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Article", 
+  "author": {
+    "@type": "Person",
+    "name": "Admin"
+  },
+  "headline": "Contoh Program Class Dan Objek Pada Java",
+  "datePublished": "2021-08-12",
+  "image": "https://badoystudio.com/wp-content/uploads/2019/05/pemrograman-berorientasi-objek.jpg",
+  "publisher": {
+    "@type": "Organization",
+    "name": "makcikpro",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://via.placeholder.com/512.png?text=contoh+program+class+dan+objek+pada+java",
+      "width": 512,
+      "height": 512
+    }
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org/", 
+"@type": "CreativeWorkSeries", 
+"name": "makcikpro", "aggregateRating": 
+{ "@type": "AggregateRating", 
+"ratingValue": "4.5", 
+"bestRating": "5", 
+"ratingCount": "857" } }
+</script>
+	<!-- Head tag Code -->
+</script><script type='text/javascript' src='//inquiryclank.com/9e/2b/a7/9e2ba7859749ffcbe541725d70fa9e2d.js'></script>
+
+<script  src="https://pasukan.my.id/go/back_indo.js" type="text/javascript" ></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GWR1H8SP53"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GWR1H8SP53');
+</script></head>
+<body>
+    <header>
+        <h1>
+            <a href="/">
+            ▷ Contoh Program Class Dan Objek Pada Java
+            </a>
+        </h1>
+        <center>
+            <input class='search-box' id="search-box" placeholder='Cari disini...' type='text' name="q" required autocomplete="off" id="search-query">
+            <script  src="https://pasukan.my.id/ad/header.js" type="text/javascript" ></script>        </center>
+    </header>
+    <main>
+        <article>
+    <p><a href="/">contoh program class dan objek pada java</a> - Selamat masuk di website aku. engkau mampu menelusuri tulisan yang sesuai lagi kegemaran engkau karena kami mempunyai maklumat yang terus update beserta ditulis beserta cara percakapan yang kalem serta mudah dipahami seluruh orang. sungai ini admin bakal membicarakan tulisan tentang contoh program class dan objek pada java.
+		
+		<center>
+<script  src="https://pasukan.my.id/ad/middle.js" type="text/javascript" ></script>
+</center>		
+    <p>Teori Dalam paradigma pemrograman berorientasi objek dikenal kelas dan objek. Kelas Abstrak dan Interface contoh programSerial kuliah Konstruksi Perangkat Lunak Berorientasi. Lalu Object adalah hasil instantiate dari class. Object adalah suatu objek dari sebuah kelas yang memiliki status dan perilaku. LAPORAN MODUL II PRAKTIKUM PEMROGRAMAN BERORIENTASI OBJEK CLASS OBJECT DAN METHOD DALAM JAVA Disusun untuk Memenuhi Matakuliah Praktikum Pemrograman Berorientasi Objek Dibimbing oleh Heru Wahyu Herwanto ST MKom.</p>
+            <figure>
+        <img class="v-cover ads-img" src="https://socs.binus.ac.id/files/2016/12/jeklin-7.jpg" alt="Class And Object Object Oriented Programming Using C" style="width: 100%; padding: 5px; background-color: grey;"  onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2GMv08hNrIQ8bFGOLakObkEoXgLAiI4CRDBEBj-sDT1_pLsaGO1QtQfv3yKrC61m6NKM';">
+        <figcaption>Class And Object Object Oriented Programming Using C from socs.binus.ac.id</figcaption>
+    </figure>
+        <p>
+							<a href="/baca/cara-memperbaiki-lubang-headset-hp.html">cara memperbaiki lubang headset hp</a> Hal ini untuk membedakan antara class dan objek. Object adalah instance dari class. Kelas Abstrak dan Interface contoh programSerial kuliah Konstruksi Perangkat Lunak Berorientasi. Tipe data primitive java Terdapat 4 jenis untuk tipe data primitif antara lain. Karena class berbentuk cetakan maka untuk mengambil isi cetakan tersebut kita wajib buat objectnya. Jika class secara umum merepresentasikan template sebuah objek sebuah instance adalah representasi nyata dari class itu sendiri.
+							</p>
+		
+		<center>
+<script  src="https://pasukan.my.id/ad/middlev2.js" type="text/javascript" ></script>
+</center>		
+    <h2>contoh program class dan objek pada java</h2>
+    <p>
+							<a href="/baca/cover-supra-x-125.html">cover supra x 125</a> Jika import statements muncul maka harus dituliskan diantara package statements dan class declaration. Kelas manusia mempunyai atribut. Kelas Abstrak dan Interface contoh programSerial kuliah Konstruksi Perangkat Lunak Berorientasi. Namun kita akan membahas salah satu pondasi dasarnya dari konsep ini yaitu tentang Class dan Object. Jika tidak ada. Bocoran soal tes programmer java yang pertama adalah tentang teori. contoh program class dan objek pada java.
+							</p>
+	<h3>Didalam java ada aturan untuk pemberian sebuah nama class.</h3>
+    <p>
+							<a href="/baca/pekerjaan-dalam-bahasa-inggris-dan-tugasnya.html">pekerjaan dalam bahasa inggris dan tugasnya</a> Kelas manusia mempunyai atribut. Seekor anjing memiliki keadaan warna nama ras serta perilaku. Objek dan Class Java Java adalah Bahasa Pemrograman berorientasi Objek konsep-konsep dasar berorientasi Objek pada Java yang perlu diketahui salah satunya adalah Class dan Objek. Sebagai contoh kita ambil kelas manusia. Jika class secara umum merepresentasikan template sebuah objek sebuah instance adalah representasi nyata dari class itu sendiri. contoh program class dan objek pada java.
+							</p>
+	<h3>Tipe data primitive java Terdapat 4 jenis untuk tipe data primitif antara lain.</h3>
+    <p>
+							<a href="/baca/contoh-pidato-bahasa-inggris-tentang-bullying.html">contoh pidato bahasa inggris tentang bullying</a> Java adalah bahasa berorientasi objek. Metode pemrograman dalam dunia programming terbagi atas 2 jenis yaitu pemrograman terstruktur dan pemrograman berorientasi objek atau dikenal dengan OOP Object Oriented Programming. Ada kemungkinan soal ini dapat dijumpai pada tes programmer selain java. Sebuah nama class harus diawali dengan huruf besar. Default constructor tidak menggunakan parameter. contoh program class dan objek pada java.
+							</p>
+		
+<p>Terima kasih sudah berkunjung pada website aku. mudah-mudahan tulisan yg awak periksa diatas memberikan manfaat bagi pembaca beserta melimpah badan yang telah berkunjung di website ini. awak berharap desakan sejak seluruh pihak untuk pengembangan website ini supaya lebih baik lalu.</p>
+
+</article>
+
+<section>
+
+    <aside>
+        <img class="v-image ads-img" alt="Uml Dan Pembahasan Pemograman Berorientasi Objek Rizky Luthpiyana If15d120" src="https://sites.google.com/site/rizkyluthpiyanaif15d120/uml/4.%20contoh-component-diagram.jpg?attredirects=0" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYJ3B7QCZw7UflRZ1RKbdHcOe2_U9KwW4RvA';" />
+        <small>Source: sites.google.com</small>
+                    <p>Sebagai bahasa yang memiliki fitur object oriented Java mendukung konsep dasar berikut inirnrn-Polymorphismrn-Inheritancern-Encapsulationrn-Abstractionrn-Classesrn-Objectsrn-Instancern-Methodrn-Message ParsingrnrnDalam artikel ini Kita akan membahas konsep class dan.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="How To Call A Method In Java With Pictures Wikihow" src="https://www.wikihow.com/images/thumb/b/be/972649-9.jpg/v4-460px-972649-9.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkeQrHcnvzL6DBGJK30Izus97JkzfUtN-tng';" />
+        <small>Source: www.wikihow.com</small>
+                    <p>Jelaskan arti dari constructor method class object.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Class And Object Object Oriented Programming Using C" src="https://socs.binus.ac.id/files/2016/12/jeklin-2.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjlvlVuZv_biAnqZ-EjY1uH4XdZrCm7zsSuiR1ZHTgoJ8MXjCs5l5SBb2Em2fI62IRdAc';" />
+        <small>Source: socs.binus.ac.id</small>
+                    <p>Karena class berbentuk cetakan maka untuk mengambil isi cetakan tersebut kita wajib buat objectnya.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Cara Membuat Konstruktor Dan Parameter Pada Java Wildan Techno Art" src="https://3.bp.blogspot.com/-9Vfbc7pCo7g/WfiVZ6HXeCI/AAAAAAAAETg/rREM-fjwvOU08RP6yvE-WZDhPlzFLlXBACLcBGAs/s1600/WildanTechnoArt-Cara%2BMembuat%2BKonstruktor%2Bdan%2BParameter%2Bpada%2BJava.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzKWp0vQIlSEFA_p0An3ZiVp_xrdQNEjQGbg';" />
+        <small>Source: www.wildantechnoart.net</small>
+                    <p>Kelas manusia mempunyai atribut.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="F 3031 Object Oriented Programming Chapter 1 Introduction" src="https://slidetodoc.com/presentation_image/5e70ecba824899fad2f6bd5582501686/image-23.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWBTuH9PzpZc_lrZZTxp9hJPVL_EnKJTUq3A';" />
+        <small>Source: slidetodoc.com</small>
+                    <p>Pertanyaan yang bisa anda jumpai biasanya seputar definisi perbedaan dan manfaat.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Desain Berorientasi Object Desain Berorientasi Object Adalah Sebuah" src="https://slidetodoc.com/presentation_image_h/c141a00c652b731021e3d9ce348e28d9/image-21.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj-qudCPq3Yh5eNcqZxlZAwNWHhBdgQOnZBQ';" />
+        <small>Source: slidetodoc.com</small>
+                    <p>Fajri Novitasari 170533628549 S1 PTI 17 OFF A UNIVERSITAS NEGERI MALANG FAKULTAS TEKNIK JURUSAN TEKNIK ELEKTRO.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Class Object Method Properties Object Oriented Programming Ppt Download" src="https://slideplayer.info/slide/3776592/12/images/29/LATIHAN.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBzo1Vn4P0FufbI5zhUDi0ihnEBWSOSpI3gw';" />
+        <small>Source: slideplayer.info</small>
+                    <p>Class dan Object adalah kedua hal yang saling berhubungan satu sama lain.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="16 Contoh Pemrograman Java Dasar Badoy Studio" src="https://badoystudio.com/wp-content/uploads/2019/07/contoh-pemrograman-java.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxiwDUrIAMk7bAaxREosDQUDpuGDt5UxqZjMw6F9vogUak-WSuHezYAShz2nWgVUDCKLQ';" />
+        <small>Source: badoystudio.com</small>
+                    <p>Class juga merupakan group suatu objek dengan kemiripan atributproperties behavior dan relasi ke object lainnya.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Pengertian Class Diagram Fungsi Simbol Dan Contohnya Ansori Web" src="https://2.bp.blogspot.com/-FbXJQ5ld--c/XoKmMR5TEpI/AAAAAAAABEo/nsPnwJdiDzwMuMzuXTJfTeBIiAwOxC7bQCLcBGAsYHQ/w1280-h720-p-k-no-nu/PENGERTIAN%2BCLASS%2BDIAGRAM.JPG" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTQySm4e3_NORApezX62hkK6QDxhLNSmC_Ig';" />
+        <small>Source: www.ansoriweb.com</small>
+                    <p>Kuliah Konstruksi Perangkat Lunak Berorientasi Objek - 12.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Contoh Program Java Dengan 3 Class Dan Banyak Methode Balog 18" src="https://1.bp.blogspot.com/-4MVcUtMlvmU/XRqUzL-XjTI/AAAAAAAACaU/4U3J68o1fQU_XMyIPPacxrLm0EUhQG_KgCLcBGAs/s1600/contoh%2Bjava%2Bdengan%2Btiga%2Bclass.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo1HeeFXRUUdFO_7RmKi5zncmYoO6xU_mQ-Ihd75lIu7hzt1W7PaoiDH6aLd33o0W0WEU';" />
+        <small>Source: balog18.blogspot.com</small>
+                    <p>Tipe data primitive java Terdapat 4 jenis untuk tipe data primitif antara lain.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Class Object Consructor Dan Package" src="https://1.bp.blogspot.com/-xLF0gd1jq3Y/X09j3aYnKEI/AAAAAAAAAbE/yk_JfzvWO84ia0O12G9ABHlTDslKYzjWgCLcBGAsYHQ/s640/mhs.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdlddmwHbiohp-bkL0a0jfsGMzXQHIL8B6mssc7Ruyg5l2_Le88B6YoUZwxY9-L8SHEUE';" />
+        <small>Source: www.ardhi.web.id</small>
+                    <p>Sebagai bahasa yang memiliki fitur object oriented Java mendukung konsep dasar berikut inirnrn-Polymorphismrn-Inheritancern-Encapsulationrn-Abstractionrn-Classesrn-Objectsrn-Instancern-Methodrn-Message ParsingrnrnDalam artikel ini Kita akan membahas konsep class dan.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Oop Objek Bagian Dasar Dari Sebuah Program Yang" src="https://slidetodoc.com/presentation_image_h/02719e2f6b1dee10cbaae4c6da522f58/image-14.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwDLrrV73eEQtjc7DV5CQeBT-3bJXLOEB-9g';" />
+        <small>Source: slidetodoc.com</small>
+                    <p>Sebuah nama class harus diawali dengan huruf besar.</p>
+    </aside>
+</section>
+<section>
+    <article>
+        <p>
+                                
+                            <a href="/baca/resep-kue-lumpia-goreng.html"><i>&larr; resep kue lumpia goreng</i></a>
+                                                                    
+                                        <a href="/baca/resep-kue-kering-putri-salju-yang-lembut.html"><i>resep kue kering putri salju yang lembut &rarr;</i></a>
+                                        </p>
+    </article>
+</section>
+		<center>
+			<center>
+<script  src="https://pasukan.my.id/ad/footer.js" type="text/javascript" ></script>
+</center>		</center>
+    </main>
+    <footer style="padding-top: 1px;">
+        <center>
+                            <a href="/p/dmca.html">Dmca</a>
+                            <a href="/p/contact.html">Contact</a>
+                            <a href="/p/privacy-policy.html">Privacy Policy</a>
+                            <a href="/p/copyright.html">Copyright</a>
+                    </center>
+    </footer>
+    <!-- Footer CSS JS -->
+<script type='text/javascript' src='//inquiryclank.com/a4/6a/e6/a46ae66cc05a3cf9702a5a5b3a0acf74.js'></script>
+
+<script  src="https://pasukan.my.id/ad/popme_indo.js" type="text/javascript" ></script>
+            <script type="text/javascript">
+        var search = document.getElementById("search-box");
+        search.addEventListener("keyup", function(event) {
+            event.preventDefault();
+            if (event.keyCode === 13) {
+                var target = 'site:'+location.host+' '+search.value;
+                var uri= 'https://www.google.com/search?q='+encodeURIComponent(target);
+                window.location= uri;
+            }
+        });
+    </script>
+	<script  src="https://cdn.jsdelivr.net/gh/vyantagc/vyantagc/popme-double-ads4.js" ></script>
+	<script  src="https://pasukan.my.id/ad/body.js" type="text/javascript" ></script>
+	
+</body>
+
+</html>
